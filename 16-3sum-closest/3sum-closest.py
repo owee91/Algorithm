@@ -11,8 +11,6 @@ class Solution:
                 if sum == target:
                     return sum
                 if abs(sum - target) < abs(result - target):
-                    print(abs(sum - target))
-                    print(abs(result - target))
                     result = sum
                 if sum < target:
                     j += 1
